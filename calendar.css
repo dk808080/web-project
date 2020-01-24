@@ -1,0 +1,47 @@
+table.cal{
+  color:black;
+  border-spacing:0;
+  border:5px solid black;
+  border-radius:0 0 25px 25px;
+}
+tr:nth-child(odd){background-color:seagreen;
+}
+tr:nth-child(even){background-color:orange;
+}
+
+.old{
+  padding:0;
+  margin:0;
+  background-color:grey;
+  color:lightgrey;
+  border-spacing:0;
+}
+span{
+  display:block;
+  visibility:hidden;
+  text-align:center;
+  color:red;
+}
+td:active>span{
+  visibility:visible;
+}
+.cal caption{
+  text-transform:uppercase;
+  background-color:hotpink;
+  border:2px solid black;
+  font-size:150%;
+  color:black;
+  border-radius:25px 25px 0 0;
+}
+.cal th, .cal td{
+  margin:2px;
+  padding:3px;
+  width:80px;
+  height:80px;
+}
+.cal th{
+  background-color:white;
+  border-spacing:0;
+  text-align:center;
+  color:hotpink;
+}
