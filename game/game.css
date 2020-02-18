@@ -1,0 +1,70 @@
+.divv{
+  border:solid 2px;
+  display:inline-block;
+  width:70%;
+text-align: center;
+padding-bottom:20%;
+  align-items: center;
+  margin-left:15%;
+  background-color:#f4c2c2;
+
+  }
+  .colourButton{
+    background-color: rgb(255,0,0);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: none;
+    margin: 10px;
+    margin-bottom:15%;
+    margin-top:15%;
+}
+
+#buttonWrapper{
+    width: 50%;
+    height:50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom:5%;
+    font-family:sans-serif;
+    color:darkblue;
+}
+
+#colourValue{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#answer{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#reset{
+    margin: 0 auto;
+
+    text-align: center;
+
+}
+
+#reset_button{
+    border:solid 1px;
+    padding:2px;
+    margin-top: 100px;
+    background-color:lightgrey;
+    width: 150px;
+    height: 50px;
+
+    border-radius: 15%;
+    box-shadow: none;
+    margin: 10px;
+
+}
