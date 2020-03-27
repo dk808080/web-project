@@ -1,0 +1,105 @@
+/*html elements*/
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
+
+/*header*/
+.big-header {
+  line-height: 2;
+}
+
+/*navigation*/
+#navigation {
+  color: #fff;
+}
+
+/*front-slide-show*/
+#front-slide-show {
+  background-color: #85e3ff;
+  padding: 5% 0 0;
+}
+
+.front-slide-show-img {
+  width: 100%;
+}
+
+/*courses*/
+#courses {
+  padding: 5% 1.5%;
+  color: #000;
+}
+
+.courses-column {
+  padding: 3% 2%;
+}
+
+/*facilities*/
+#facilities {
+  padding: 7% 15%;
+}
+
+#facilities h3 {
+  margin-bottom: 2%;
+  line-height: 2;
+}
+
+.dk1 {
+  padding: 5%;
+}
+
+.icon {
+  color: #85e3ff;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: blue;
+}
+
+/*testimonial*/
+#testimonials {
+  background-color: #85e3ff;
+  color: #000;
+}
+
+.testimonial-text {
+  padding: 5%;
+}
+
+.car {
+  padding: 7% 15%;
+}
+
+.testinomial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+.testimonial-header {
+  padding-top: 2rem;
+  padding-bottom: 0;
+}
+
+.student-name {
+  margin: 0 0 3rem 0;
+}
+
+/*contact*/
+#contact {
+  background-color: #85e3ff;
+  padding: 5% 15%;
+}
+
+/*footer*/
+#footer {
+  padding: 3% 0;
+}
+
+.footer-logo {
+  margin: 1%;
+}
