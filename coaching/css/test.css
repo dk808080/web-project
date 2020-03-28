@@ -1,0 +1,20 @@
+
+#test {
+  padding: 5% 1.5%;
+  color: #000;
+}
+
+.test-column {
+  padding: 3% 2%;
+
+}
+.header{
+  background-color: #11999e;
+  color:#fff;
+  margin:0 0 auto 0;
+  padding:1.5%;
+text-align: center;
+}
+.test-column a:hover{
+  text-decoration: none;
+}
