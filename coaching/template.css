@@ -127,7 +127,7 @@ body{
     }
     /* login form*/
 #loginform{
-  background-color: #ffac41;
+  background-color: #ffd868;
   padding: 2rem 0;
 }
   #loginform h2{
@@ -142,15 +142,16 @@ body{
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  background-color: #ffac41;
+  background-color: #ffd868;
 border: 1px solid #000;
 }
 .loginfield:hover{
-  border: 1px solid #ff1e56;
-  box-shadow: 0 0 3px #ff1e56;
+  border: 1px solid #ffac41;
+  box-shadow: 0 0 3px #ffac41;
 }
 .loginfield:focus{
-    outline: 1px solid #ff1e56;
+    outline: 1px solid #ffac41;
+    box-shadow: 0 0 5px #ffac41;
 }
 
 button {
@@ -174,17 +175,18 @@ button:hover {
 
 }
 .cancelbtn:hover{
-  background-color: #ff1e56;;
+  background-color: #ffac41;
+  color:#000;
 }
 
-.icon{
+.icon-login{
 text-align: center;
 color:#000;
 }
 
 
 
-.container {
+.container-login {
   padding: 16px;
   width: 50%;
   margin:0 auto;
