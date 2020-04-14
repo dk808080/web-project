@@ -194,6 +194,7 @@ body {
 {
   .dashboard-content{
     width:70%;
+    float:left;
   }
 }
 #intro{
